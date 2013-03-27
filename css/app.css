@@ -5,6 +5,10 @@ body{
 	/*background: url(http://www.unsigneddesign.com/Seamless_background_textures/thumbs/seamlesstexture30_1200.jpg) repeat;*/
 	font-family: 'Source Sans Pro', sans-serif !important;
 }
+
+.row{
+	max-width: 75em !important;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lora', sans-serif !important;
 }
