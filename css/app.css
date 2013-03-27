@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Lora:400,700);
+
+body{
+	background: url(http://www.unsigneddesign.com/Seamless_background_textures/thumbs/seamlesstexture13_1200.jpg) repeat;
+	/*background: url(http://www.unsigneddesign.com/Seamless_background_textures/thumbs/seamlesstexture30_1200.jpg) repeat;*/
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lora', sans-serif !important;
+}
+h1{
+	font-size:3.5em;
+	margin-bottom:0px;
+	display:inline;
+	text-shadow: 0px 0px 2px #444;
+	filter: dropshadow(color=#444, offx=0, offy=0);
+}
+.wrap {
+	margin-top: 15px;
+	background-color:white;
+	-webkit-box-shadow: 0px 0px 10px 0px #777;
+	box-shadow: 0px 0px 10px 0px #777;
+}
+.subheader {
+	margin:0;
+	display:inline;
+	font-size:2em;
+}
+.red {
+	color:red;
+}
+.black {
+	color:black;
+}
+.rules {
+}
+.rules ul {
+	list-style-type:none;
+}
+.rules li {
+	cursor:help;
+	padding-left:5px;
+}
+.rules li.active {
+	background-color:red;
+	border-radius:5px;
+	color:white;
+}
+
+.explain p {
+	background-color: #457a1a;
+	border-radius: 2px;
+	border-color:3px solid #eee;
+	color: #eee;
+	padding:5px;
+}
+
+.large-9.columns {
+	border-right: 1px dashed #78AB46;
+}
+
+.close-reveal-modal.button {
+	color:white;
+	position:static;
+	float:right;
+	clear:both;
+}
+
+.alert-box.success {
+	margin-bottom: 0;
+}
+
+.label.secondary {
+	width:10%;
+}
+
+#card-show .card {
+	float:left;
+}
